@@ -1,0 +1,8 @@
+[user]
+	name = Guangyuan Yang
+	email = yzgyyang@outlook.com
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = auto
