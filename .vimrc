@@ -1,6 +1,8 @@
 set number
 
+" Set 256Color terminal
 set laststatus=2
+set t_Co=256
 
 set nocompatible
 filetype off
@@ -15,10 +17,15 @@ Plugin 'gmarik/vundle'
 
 " Bundles
 Plugin 'scrooloose/nerdtree'
-nmap <F5> :NERDTreeToggle<cr>
+Plugin 'vim-airline/vim-airline'
+Plugin 'ShowTrailingWhitespace'
+Plugin 'dracula/vim'
 
-Plugin'vim-airline/vim-airline'
+nmap <F5> :NERDTreeToggle<cr>
 
 call vundle#end()
 
 filetype plugin indent on
+
+syntax on
+color dracula
