@@ -1,5 +1,3 @@
-set number
-
 " Set 256Color terminal
 set laststatus=2
 set t_Co=256
@@ -25,7 +23,13 @@ nmap <F5> :NERDTreeToggle<cr>
 
 call vundle#end()
 
+" Indent on
 filetype plugin indent on
-
+" Syntax on
 syntax on
+" Line number
+set number
+" Current line highlight
+set cursorline
+" Theme
 color dracula
