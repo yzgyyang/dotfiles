@@ -1,6 +1,8 @@
-" Set 256Color terminal
+" Set 256Color terminal and mouse
 set laststatus=2
 set t_Co=256
+set ttymouse=xterm2
+set mouse=a
 
 set nocompatible
 filetype off
