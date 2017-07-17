@@ -33,5 +33,7 @@ syntax on
 set number
 " Current line highlight
 set cursorline
+" 80 character count
+set colorcolumn=80
 " Theme
 color dracula
