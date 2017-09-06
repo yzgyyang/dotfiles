@@ -34,3 +34,6 @@ export EDITOR='vim'
 # interactive copy and move, prompt before overwrite
 alias cp='cp -i'
 alias mv='mv -i'
+
+# find a file
+alias f='find . -name'
