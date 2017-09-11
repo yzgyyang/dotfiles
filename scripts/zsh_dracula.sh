@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/sh -x
 
 rm -rf /tmp/dracula-zsh
 git clone https://github.com/dracula/zsh.git /tmp/dracula-zsh
