@@ -6,3 +6,5 @@
 	autocrlf = input
 [color]
 	ui = auto
+[push]
+	default = simple
