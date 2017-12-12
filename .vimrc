@@ -31,6 +31,7 @@ filetype plugin indent on
 syntax on
 " Line number
 set number
+set relativenumber
 " Current line highlight
 set cursorline
 " 80 character count
