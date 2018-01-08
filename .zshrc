@@ -37,3 +37,6 @@ alias mv='mv -i'
 
 # find a file
 alias f='find . -name'
+
+# calculate size of files and directories
+alias s='du -sh'
