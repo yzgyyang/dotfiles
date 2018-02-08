@@ -33,6 +33,8 @@ set number
 set relativenumber
 " Current line highlight
 set cursorline
+" Disable mouse auto visual
+set mouse-=a
 " 80 character count
 set colorcolumn=80
 " Theme
