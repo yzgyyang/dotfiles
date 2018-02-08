@@ -8,7 +8,6 @@ set nocompatible
 filetype off
 
 " Add vundle support
-" To install vundle: git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
