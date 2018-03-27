@@ -1,0 +1,22 @@
+Host freebsd-freefall
+	HostName freefall.freebsd.org
+	User ygy
+	IdentityFile id_rsa_freebsd
+
+Host uw-cs
+	HostName linux.student.cs.uwaterloo.ca
+
+Host uw-csclub
+	HostName csclub.uwaterloo.ca
+
+Host uw*
+	User g52yang
+
+Host vultr-ci
+	HostName ci.charlieyang.me
+
+Host vultr*
+	User root
+
+Host *
+	User guangyuan
