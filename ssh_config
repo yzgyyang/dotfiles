@@ -4,7 +4,7 @@ Host freebsd-freefall
 Host freebsd-repo
 	HostName repo.freebsd.org
 
-Host freebsd*
+Host freebsd* *.freebsd.org
 	User ygy
 	IdentityFile id_rsa_freebsd
 
