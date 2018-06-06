@@ -6,7 +6,7 @@ Host freebsd-repo
 
 Host freebsd* *.freebsd.org
 	User ygy
-	IdentityFile id_rsa_freebsd
+	IdentityFile ~/.ssh/id_rsa_freebsd
 
 Host uw-cs
 	HostName linux.student.cs.uwaterloo.ca
