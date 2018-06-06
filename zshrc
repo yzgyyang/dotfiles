@@ -40,3 +40,17 @@ alias f='find . -name'
 
 # calculate size of files and directories
 alias s='du -sh'
+
+# Wrapper for svn for subcommand aliases
+svn() {
+  # echo svn-wrapper
+  case $1 in
+    # svn reset = svn revert --recursive .
+    reset)
+      shift
+      command svn revert --recursive .
+      ;;
+    *)
+      command svn "$@";;
+  esac
+}
