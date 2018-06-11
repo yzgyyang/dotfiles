@@ -40,6 +40,7 @@ alias f='find . -name'
 
 # calculate size of files and directories
 alias s='du -sh'
+alias sall='du -hsx * | sort -rh | head -10'
 
 # Wrapper for svn for subcommand aliases
 svn() {
