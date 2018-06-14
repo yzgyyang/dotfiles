@@ -7,3 +7,4 @@ ln -nsf ${PWD}/gitconfig ${HOME}/.gitconfig
 ln -nsf ${PWD}/gitignore_global ${HOME}/.gitignore_global
 mkdir -p ${HOME}/.ssh
 ln -nsf ${PWD}/ssh_config ${HOME}/.ssh/config
+chmod 0600 ${HOME}/.ssh/config
