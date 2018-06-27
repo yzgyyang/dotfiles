@@ -18,6 +18,9 @@ source $ZSH/oh-my-zsh.sh
 # Preferred editor
 export EDITOR='vim'
 
+# Initialize thefuck
+eval $(thefuck --alias)
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Manually set your language environment
