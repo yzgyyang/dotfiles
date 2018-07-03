@@ -54,6 +54,10 @@ svn() {
       shift
       command svn revert --recursive .
       ;;
+    clean)
+      shift
+      command svn cleanup . --remove-unversioned
+      ;;
     *)
       command svn "$@";;
   esac
