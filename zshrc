@@ -45,6 +45,10 @@ alias f='find . -name'
 alias s='du -sh'
 alias sall='du -hsx * | sort -rh | head -10'
 
+# git aliases
+alias ggpom='git pull origin master'
+alias ggpum='git pull upstream master'
+
 # Wrapper for svn for subcommand aliases
 svn() {
   # echo svn-wrapper
