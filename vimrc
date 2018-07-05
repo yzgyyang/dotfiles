@@ -1,6 +1,6 @@
 " Set 256Color terminal and mouse
 set laststatus=2
-set t_Co=256
+set termguicolors
 set ttymouse=xterm2
 set mouse=a
 
@@ -37,5 +37,11 @@ set cursorline
 set mouse-=a
 " 80 character count
 set colorcolumn=80
+
+" Ignore truecolor and italic settings
+" https://github.com/dracula/vim/issues/96
+"let g:dracula_colorterm = 0
+let g:dracula_italic = 0
 " Theme
 color dracula
+
