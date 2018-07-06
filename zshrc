@@ -29,9 +29,6 @@ eval $(thefuck --alias)
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 # Personal aliases, overriding those provided by oh-my-zsh libs
 
 # interactive copy and move, prompt before overwrite
@@ -48,6 +45,9 @@ alias sall='du -hsx * | sort -rh | head -10'
 # git aliases
 alias ggpom='git pull origin master'
 alias ggpum='git pull upstream master'
+
+# ssh alias to ignore and don't write to known_host
+alias issh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 
 # Wrapper for svn for subcommand aliases
 svn() {
