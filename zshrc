@@ -45,6 +45,7 @@ alias sall='du -hsx * | sort -rh | head -10'
 # git aliases
 alias ggpom='git pull origin master'
 alias ggpum='git pull upstream master'
+alias ggca='git checkout -- . && git clean -df'
 
 # ssh alias to ignore and don't write to known_host
 alias issh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
