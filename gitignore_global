@@ -9,3 +9,7 @@
 env
 __pycache__
 
+# IDE
+.idea
+.vscode
+
