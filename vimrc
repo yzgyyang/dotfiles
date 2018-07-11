@@ -31,6 +31,8 @@ syntax on
 " Line number
 set number
 set relativenumber
+" Backspace indent, eol, start
+set backspace=2
 " Current line highlight
 set cursorline
 " Disable mouse auto visual
