@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 # COMPLETION_WAITING_DOTS="true"
 
 # Plugins (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
