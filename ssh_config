@@ -4,7 +4,7 @@ Host freebsd-freefall
 Host freebsd-repo
 	HostName repo.freebsd.org
 
-Host freebsd* *.freebsd.org
+Host freebsd-* *.freebsd.org
 	User ygy
 	IdentityFile ~/.ssh/id_rsa_freebsd
 
@@ -14,13 +14,13 @@ Host uw-cs
 Host uw-csclub
 	HostName csclub.uwaterloo.ca
 
-Host uw*
+Host uw-*
 	User g52yang
 
 Host vultr-ci
 	HostName ci.charlieyang.me
 
-Host vultr*
+Host vultr-*
 	User root
 
 Host *
