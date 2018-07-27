@@ -17,11 +17,26 @@ Host uw-csclub
 Host uw-*
 	User g52yang
 
-Host vultr-ci
-	HostName ci.charlieyang.me
+Host v-jenkins
+	HostName ssh-jenkins.ygy.io
 
-Host vultr-*
+Host v-poudriere
+	HostName ssh-poudriere.ygy.io
+
+Host v-runner
+	HostName ssh-gitlab-runner.ygy.io
+
+Host v-*
 	User root
+
+Host coala-freebsd
+	HostName freebsd.ci.coala.io
+
+Host coala-*
+	User yzgyyang
+	IdentityFile ~/.ssh/id_rsa_freebsd
 
 Host *
 	User guangyuan
+	HashKnownHosts yes
+
