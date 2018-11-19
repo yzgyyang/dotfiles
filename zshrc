@@ -24,7 +24,7 @@ eval $(thefuck --alias)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
