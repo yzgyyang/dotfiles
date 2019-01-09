@@ -24,6 +24,11 @@ Host coala-*
 	User yzgyyang
 	IdentityFile ~/.ssh/id_rsa_freebsd
 
+Host azure
+	HostName ssh-azure.ygy.io
+	User guangyuan
+	IdentityFile ~/.ssh/id_rsa_freebsd
+
 Host *
 	User guangyuan
 	HashKnownHosts yes
