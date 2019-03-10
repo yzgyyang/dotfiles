@@ -64,6 +64,19 @@ svn() {
       command svn cleanup . --remove-unversioned
       ;;
     *)
-      command svn "$@";;
+      command svn "$@"
   esac
 }
+
+docker () {
+  case $1 in
+    # docker destroy
+    destroy)
+      shift
+      command docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)
+      ;;
+    *)
+      command docker "$@"
+  esac
+}
+
