@@ -15,6 +15,9 @@ plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# Initialize z.sh
+. $HOME/.z.sh/z.sh
+
 # Preferred editor
 export EDITOR='vim'
 
