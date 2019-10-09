@@ -73,8 +73,18 @@ svn() {
 
 docker () {
   case $1 in
+    # docker halt
+    halt)
+      shift
+      command docker stop $(docker ps -aq)
+      ;;
     # docker destroy
     destroy)
+      shift
+      command docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
+      ;;
+    # docker purge, similary to destroy but also purge images
+    purge)
       shift
       command docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)
       ;;
