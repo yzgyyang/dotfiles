@@ -93,3 +93,15 @@ docker () {
   esac
 }
 
+git () {
+  case $1 in
+    # git clean-branch
+    clean-branch)
+      shift
+      command git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done
+      ;;
+    *)
+      command git "$@"
+  esac
+}
+
