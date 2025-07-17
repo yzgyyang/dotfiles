@@ -28,7 +28,9 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 # Initialize thefuck
-eval $(thefuck --alias)
+if command -v thefuck &> /dev/null; then
+    eval $(thefuck --alias)
+fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
